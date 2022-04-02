@@ -27,6 +27,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      - run: yarn
       - run: yarn build
 
       - name: deploy
