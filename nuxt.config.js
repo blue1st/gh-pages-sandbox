@@ -1,6 +1,6 @@
 export default {
   router: {
-    base: '/pages-actions-sample/',
+    base: '/gh-pages-sandbox/',
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -10,7 +10,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'pages-actions-sample',
+    title: 'gh-pages-sandbox',
     htmlAttrs: {
       lang: 'en',
     },
@@ -24,7 +24,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/pages-actions-sample/favicon.ico',
+        href: '/gh-pages-sandbox/favicon.ico',
       },
     ],
   },
